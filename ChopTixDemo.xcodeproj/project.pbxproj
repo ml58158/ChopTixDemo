@@ -16,7 +16,6 @@
 		C4D8968F1B44F27300B72718 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D8968D1B44F27300B72718 /* LaunchScreen.xib */; };
 		C4D8969B1B44F27300B72718 /* ChopTixDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8969A1B44F27300B72718 /* ChopTixDemoTests.m */; };
 		C4D896A71B44FB1A00B72718 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D896A61B44FB1A00B72718 /* CoreLocation.framework */; };
-		C4D896A91B44FB4500B72718 /* MapBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D896A81B44FB4500B72718 /* MapBox.framework */; };
 		C4D896AC1B45023000B72718 /* SMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D896AB1B45023000B72718 /* SMCalloutView.m */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		C4D8969A1B44F27300B72718 /* ChopTixDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChopTixDemoTests.m; sourceTree = "<group>"; };
 		C4D896A41B44FB0A00B72718 /* MapboxGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxGL.framework; path = "Pods/../build/Release-iphoneos/MapboxGL.framework"; sourceTree = "<group>"; };
 		C4D896A61B44FB1A00B72718 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		C4D896A81B44FB4500B72718 /* MapBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapBox.framework; sourceTree = "<group>"; };
 		C4D896AA1B45023000B72718 /* SMCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCalloutView.h; sourceTree = "<group>"; };
 		C4D896AB1B45023000B72718 /* SMCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCalloutView.m; sourceTree = "<group>"; };
 		D0335F087FBDF6667ED7660B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D896A91B44FB4500B72718 /* MapBox.framework in Frameworks */,
 				C4D896A71B44FB1A00B72718 /* CoreLocation.framework in Frameworks */,
 				C36EC5A325676DA46310A5A0 /* Pods.framework in Frameworks */,
 			);
@@ -117,7 +114,6 @@
 		C4D8967D1B44F27300B72718 /* ChopTixDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C4D896A81B44FB4500B72718 /* MapBox.framework */,
 				C4D896AA1B45023000B72718 /* SMCalloutView.h */,
 				C4D896AB1B45023000B72718 /* SMCalloutView.m */,
 				C4D896821B44F27300B72718 /* AppDelegate.h */,

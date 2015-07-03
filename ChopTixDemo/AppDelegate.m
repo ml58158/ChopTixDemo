@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MapViewController.h"
+
 @interface AppDelegate ()
 
 @end

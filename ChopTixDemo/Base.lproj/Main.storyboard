@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Map View Controller-->
@@ -20,29 +21,42 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Title" id="aya-ow-Fv0"/>
+                                    <navigationItem title="Search" id="aya-ow-Fv0"/>
                                 </items>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="44"/>
-                                </variation>
                             </navigationBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UV8-wj-cBg" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="Ghf-nn-lmW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UV8-wj-cBg" secondAttribute="trailing" constant="-16" id="OOt-i8-byd"/>
+                            <constraint firstItem="UV8-wj-cBg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="qK0-cs-omF"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="UV8-wj-cBg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Ghf-nn-lmW"/>
+                                <exclude reference="OOt-i8-byd"/>
+                                <exclude reference="qK0-cs-omF"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="UV8-wj-cBg"/>
                             </mask>
+                            <mask key="constraints">
+                                <include reference="Ghf-nn-lmW"/>
+                                <include reference="OOt-i8-byd"/>
+                                <include reference="qK0-cs-omF"/>
+                            </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="439.5" y="274"/>
         </scene>
     </scenes>
 </document>
